@@ -3,9 +3,7 @@
 // 3. Use the .attr() function to set an href attribute on the hyperlink. Open it in your
 // DOM and check it's clickable.
 
-$("body").on('click', function(event){
-    // $(this).html("clicked");
-    var newEl = '<a>Click</a>';
-    $('body').append(newEl).attr({'href' : 'http://techtalentsouth.com'})
-})
+  
+let newLink = $("body").append("<a>Tech Talent South</a");
 
+$('a').attr('href', 'http://techtalentsouth.com')
