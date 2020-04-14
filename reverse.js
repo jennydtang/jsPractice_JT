@@ -3,3 +3,5 @@ function opposite(){
     return list.reverse();
 }
 console.log(opposite(list));
+
+
